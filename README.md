@@ -8,7 +8,7 @@ git remote add origin SSH_DU_REPO
 git add 'nom du fichier' pour que git suis le fichier
 ```
 
-## rediger un commit
+## rediger un commit (bonne pratique)
 
 ```
 Titre du commit
@@ -22,4 +22,10 @@ Description de notre commit avec des informations sur l'évolution du projec
 git add .
 git commit -m "titre du commit"
 git push origin main
+```
+
+##creation d'une branche
+
+```bash
+git checkout -b NOM_BRANCHE
 ```
