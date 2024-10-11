@@ -15,3 +15,11 @@ Titre du commit
 
 Description de notre commit avec des informations sur l'évolution du projec
 ```
+
+## Envoyer un commit sur le dépôt distant
+
+```bash
+git add .
+git commit -m "titre du commit"
+git push origin main
+```
